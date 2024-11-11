@@ -1,0 +1,8 @@
+@bot.command()
+async def mem_oran(ctx):
+    olasiliklar = [0.1, 0.3, 0.5,]
+    img_name = random.choices(os.listdir('picture'), weights=olasiliklar, k=1)[0]
+    with open(f'dosya yolu/{img_name}', 'rb') as f:
+        picture = discord.File(f)
+    
+    await ctx.send(file=picture)
