@@ -130,4 +130,4 @@ async def pokemon(ctx, pokemon_name = "charmander"):
 
 
 
-bot.run("MTI5NTQxOTA1ODg4NzU4OTk3MQ.GFkGLF.GxF4JqTPwk1m1ZQIuPKSy1kWsxCHE5K4SN-Pow")
+bot.run("BOT_TOKEN")
